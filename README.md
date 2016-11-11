@@ -1,4 +1,8 @@
-###TextDrawable 
+###TextDrawable
+
+Based on [this repo](https://github.com/Kennyc1012/TextDrawable), the util class ColorGenerator from the originally repo has been recovered.
+
+-----
 
 Fork of the TextDrawable library originally found [here](https://github.com/amulyakhare/TextDrawable).
 It has been reworked to be more simplified as well as had several features added including settings an icon and generating a Bitmap object. For example of how to use the newly structured API, see the [Builder Class](https://github.com/Kennyc1012/TextDrawable/blob/master/library/src/main/java/com/amulyakhare/textdrawable/TextDrawable.java#L204) or look at the [sample](https://github.com/Kennyc1012/TextDrawable/blob/master/sample/src/main/java/com/kennyc/sample/MainActivity.java) for examples. 
@@ -13,6 +17,6 @@ repositories {
 ## Add dependency
 ```groovy
 dependencies {
-    compile 'com.github.Kennyc1012:TextDrawable:1.1'
+    compile 'com.github.JingkaiTang:TextDrawable:1.1.1'
 }
 ```
